@@ -21,10 +21,10 @@ body {
 }
 .display-1 {
   font-family: 'Rubik', sans-serif;
-  font-size: 4.25rem;
+  font-size: 4rem;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 6.8rem;
+  font-size: 6.4rem;
 }
 .display-2 {
   font-family: 'Rubik', sans-serif;
@@ -49,10 +49,10 @@ body {
 }
 .display-7 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 1.92rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -61,9 +61,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.4rem;
-    font-size: calc( 2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 3.2rem;
+    font-size: calc( 2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 2.4rem;
@@ -654,13 +654,13 @@ a:hover {
   box-shadow: none;
   color: #565656;
   font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.43;
   min-height: 3.5em;
   padding: 1.07em .5em;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 1.92rem;
 }
 .form-control,
 .form-control:focus {
@@ -1763,63 +1763,6 @@ body {
 .cid-qPrb6Uu2HJ {
   background: linear-gradient(45deg, #7fd9fc, #6576aa);
 }
-.cid-qOMh74ADT9 {
-  background-image: url("../../../assets/images/background6.jpg");
-}
-.cid-qOMh74ADT9 .mbr-media span {
-  font-size: 48px;
-  cursor: pointer;
-  background-color: #ffffff;
-  border-radius: 50%;
-  width: 6rem;
-  height: 6rem;
-  line-height: 6rem;
-  position: relative;
-  display: inline-block;
-  transition: all 0.25s;
-  color: #353535;
-}
-.cid-qOMh74ADT9 .mbr-media span.mbri-play:before {
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-35%);
-  -moz-transform: translateX(-35%);
-  -ms-transform: translateX(-35%);
-  -o-transform: translateX(-35%);
-  transform: translateX(-35%);
-}
-.cid-qOMh74ADT9 .modalWindow {
-  position: fixed;
-  z-index: 5000;
-  left: 0;
-  top: 0;
-  background-color: rgba(61, 61, 61, 0.65);
-  width: 100%;
-  height: 100%;
-}
-.cid-qOMh74ADT9 .modalWindow .modalWindow-container {
-  display: table-cell;
-  vertical-align: middle;
-}
-.cid-qOMh74ADT9 .modalWindow .modalWindow-video {
-  height: calc(44.9943757vw);
-  width: 80vw;
-  margin: 0 auto;
-}
-.cid-qOMh74ADT9 a.close {
-  position: absolute;
-  right: 4vw;
-  top: 4vh;
-  color: #ffffff;
-  z-index: 5000000;
-  font-size: 37px;
-  background: #000;
-  padding: 20px;
-  border-radius: 50%;
-}
-.cid-qOMh74ADT9 a.close:hover {
-  color: #ffffff;
-}
 .cid-qOMgYnoIqh {
   background-image: url("../../../assets/images/mbr-1623x1080.jpg");
 }
@@ -1839,6 +1782,18 @@ body {
 }
 .cid-qOMgYnoIqh P {
   color: #149dcc;
+}
+.cid-qQwan7KOOH {
+  background: #ffffff;
+}
+.cid-qQwan7KOOH .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-qQwan7KOOH .video-block {
+    width: 100% !important;
+  }
 }
 .cid-qPr6sVmgS3 {
   padding-top: 90px;
@@ -2245,19 +2200,37 @@ body {
 .cid-qPrajCY3xp .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
-.cid-qQojn4QyDe {
-  background-image: url("../../../assets/images/background1.jpg");
+.cid-qQt6UgED4e {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(45deg, #f4a997, #a09fc0);
 }
-.cid-qQojn4QyDe h1 {
-  color: #616161;
+@media (min-width: 992px) {
+  .cid-qQt6UgED4e .mbr-figure {
+    padding-left: 4rem;
+  }
 }
-.cid-qQojn4QyDe h2,
-.cid-qQojn4QyDe h3,
-.cid-qQojn4QyDe p {
-  color: #767676;
+@media (max-width: 991px) {
+  .cid-qQt6UgED4e .mbr-figure {
+    padding-top: 3rem;
+  }
 }
-.cid-qQojn4QyDe .mbr-section-subtitle {
-  font-style: italic;
+.cid-qQt6UgED4e .media-container-row {
+  flex-direction: row-reverse;
+}
+@media (min-width: 992px) {
+  .cid-qQt6UgED4e .media-container-row .mbr-figure {
+    padding-left: 0;
+    padding-right: 4rem;
+  }
+}
+.cid-qQt6UgED4e .mbr-section-title {
+  text-align: left;
+  color: #ffffff;
+}
+.cid-qQt6UgED4e .mbr-text,
+.cid-qQt6UgED4e .mbr-section-btn {
+  text-align: left;
 }
 .cid-qOM9oaJVz8 .navbar {
   padding: .5rem 0;
